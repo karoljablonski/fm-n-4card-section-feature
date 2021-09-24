@@ -1,0 +1,23 @@
+* {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  position: relative;
+  min-height: 220vh;
+}
+
+button.attach-another-section {
+  display: none;
+}
+
+p.attribution {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

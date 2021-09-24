@@ -1,0 +1,21 @@
+@import 'variables.scss';
+
+* {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 220vh;
+}
+
+button.attach-another-section {
+    display: none;
+    //it might add section to a prove bem works fine
+}
+
+@import 'cards-section-feature';
+@import 'footer';

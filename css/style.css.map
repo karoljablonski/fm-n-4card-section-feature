@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,qBAAqB;CACrC;;AAED,AAAA,IAAI,CAAC;EACD,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,KAAK;CACpB;;AAED,AAAA,MAAM,AAAA,uBAAuB,CAAC;EAC1B,OAAO,EAAE,IAAI;CAEhB;;AGjBD,AAAA,CAAC,AAAA,YAAY,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,CAAC;EACP,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,MAAM;CAAG",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_variables.scss",
+        "../scss/_cards-section-feature.sass",
+        "../scss/_footer.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}
