@@ -2,6 +2,8 @@
   font-size: 15px;
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -57,35 +59,64 @@ button.attach-another-section {
 }
 
 div.cards-container {
-  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 70px;
 }
 
 .card {
-  margin: 5px;
-  padding: 10px;
-  color: white;
+  margin: 15px 30px;
+  padding: 25px;
   position: relative;
-  height: 130px;
-  border: 1px solid black;
+  height: 240px;
+  border-radius: 5px;
+  border-top: 4px solid;
+  -webkit-box-shadow: 0px 9px 40px -15px #a3a5ae;
+          box-shadow: 0px 9px 40px -15px #a3a5ae;
+}
+
+.card--cyan {
+  border-top-color: #45d3d3;
+}
+
+.card--red {
+  border-top-color: #ea5353;
+}
+
+.card--orange {
+  border-top-color: #fcaf4a;
+}
+
+.card--blue {
+  border-top-color: #549ef2;
 }
 
 .card__h3 {
-  color: yellow;
+  color: #4c4e61;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  margin-bottom: 5px;
 }
 
 .card__desc {
-  font-style: italic;
-  font-size: 25px;
-}
-
-.card__desc--red {
-  background-color: red;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  font-weight: 200;
+  color: #a3a5ae;
 }
 
 .card__svg {
   position: absolute;
-  right: 10px;
-  bottom: 10px;
+  right: 25px;
+  bottom: 25px;
 }
 
 p.attribution {
