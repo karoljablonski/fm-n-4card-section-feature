@@ -9,13 +9,15 @@
 
 body {
     position: relative;
-    min-height: 220vh;
+    max-width: 375px;
+    margin: 0 auto;
+    background-color: $very-light-gray;
 }
 
 button.attach-another-section {
     display: none;
-    //it might add section to a prove bem works fine
+    //it might add section to prove that bem works fine
 }
 
-@import 'cards-section-feature';
+@import 'cards-feature';
 @import 'footer';

@@ -7,17 +7,93 @@
 
 body {
   position: relative;
-  min-height: 220vh;
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #fafafa;
 }
 
 button.attach-another-section {
   display: none;
 }
 
+.cards-feature__title {
+  height: 50vh;
+  padding: 0 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards-feature__h1 {
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: 0.8px;
+  padding: 2px;
+  color: #a3a5ae;
+}
+
+.cards-feature__h2 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  padding: 2px;
+  color: #4c4e61;
+}
+
+.cards-feature__desc {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  padding: 15px 0;
+  color: #a3a5ae;
+}
+
+div.cards-container {
+  background-color: grey;
+}
+
+.card {
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  position: relative;
+  height: 130px;
+  border: 1px solid black;
+}
+
+.card__h3 {
+  color: yellow;
+}
+
+.card__desc {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.card__desc--red {
+  background-color: red;
+}
+
+.card__svg {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
 p.attribution {
+  height: 60px;
+  margin: 5px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -70px;
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
