@@ -78,6 +78,12 @@ button.attach-another-section {
   }
 }
 
+@media (min-width: 1500px) {
+  .cards-feature__desc {
+    padding: 15px 120px;
+  }
+}
+
 div.cards-container {
   display: -webkit-box;
   display: -ms-flexbox;
